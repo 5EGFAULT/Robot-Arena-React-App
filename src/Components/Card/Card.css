@@ -1,0 +1,41 @@
+.Card {
+    padding: 20px;
+    width: 260px;
+    height: 360px;
+    background-color: #0496FF;
+    margin: 20px;
+    border-radius: 8px;
+    border: 1px solid 027BCE;
+    /* -moz-box-shadow: 0px 0px 3px 3px #0496FF;
+    box-shadow: 0px 0px 3px 3px #0496FF; */
+    transition: all 200ms ease-in-out;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.Card:hover {
+    transform: scale(1.1);
+}
+
+.Card img {
+    max-height: 70%;
+}
+
+
+.Card h4 {
+    font-family: Akya;
+    /* font-family: 'Stick', sans-serif; */
+    margin: 0;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+.Card h6 {
+    font-family: Akya;
+    margin: 0;
+    font-size: 15px;
+}

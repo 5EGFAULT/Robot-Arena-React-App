@@ -1,0 +1,31 @@
+.bar {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.bar input {
+    border-radius: 4px;
+    font-family: Akya;
+    width: 400px;
+    /* font-family: Stick, sans-serif; */
+    font-size: 20px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid #0496FF;
+    padding: 13px;
+    /* color: black; */
+    /* background-color: #0496FF; */
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Stick&display=swap'); */
+
+.bar h1 {
+    /* font-family: Akya; */
+    font-family: 'Stick', sans-serif;
+    color: #0496FF;
+}

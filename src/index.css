@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    /* color: white; */
+}
+
+@font-face {
+    font-family: 'Stick';
+    src: url('./fonts/Stick/Stick-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Akya';
+    src: url('./fonts/Akaya_Telivigala/AkayaTelivigala-Regular.ttf');
+
+}
+
+body {
+    /* background-color: #4BB3FD; */
+}
